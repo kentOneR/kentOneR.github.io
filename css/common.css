@@ -1,0 +1,16 @@
+@font-face {
+    font-family: MOAM91;
+    src: url("../fonts/MOAM91.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MOAM91-light;
+    src: url("../fonts//MOAM91_light.otf") format("opentype");
+}
+
+.main__title {
+    font-family: 'MOAM91';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
