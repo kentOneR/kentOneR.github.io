@@ -51,3 +51,21 @@
     object-fit: cover;
     background: #fff;
 }
+
+.slider__nav {
+    position: relative;
+    padding-left: 20px;
+}
+
+.slider__nav li {
+    cursor: pointer;
+}
+
+.sider__line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 4px;
+    height: 100%;
+}
