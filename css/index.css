@@ -96,6 +96,16 @@
 
 .slider__dot {
     position: relative;
+    color: #777E90;
+}
+
+.slider__dot.active {
+    font-weight: bold;
+    color: #fff;
+}
+
+.slider__dot.active::before {
+    border: 2px solid #fff ;
 }
 
 .slider__dot::before {
@@ -107,15 +117,15 @@
     height: 20px;
     border-radius: 10px;
     background: #141416;
-    border: 4px solid #fff ;
+    border: 2px solid #777E90 ;
 }
 
 .sider__line {
     position: absolute;
     top: -30px;
     left: 0;
-    background: #fff;
-    width: 4px;
+    background: #777E90;
+    width: 2px;
     height: calc(100% + 85px);
 }
 
