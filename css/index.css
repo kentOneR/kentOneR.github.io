@@ -96,11 +96,13 @@
 
 .slider__dot {
     position: relative;
+    font-weight: 400;
     color: #777E90;
+    transition: color 150ms ease-in, font-weight 150ms ease-in;
 }
 
 .slider__dot.active {
-    font-weight: bold;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -118,6 +120,7 @@
     border-radius: 10px;
     background: #141416;
     border: 2px solid #777E90 ;
+    transition: border 150ms ease-in;
 }
 
 .sider__line {
