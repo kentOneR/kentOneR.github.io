@@ -210,6 +210,19 @@
     display: none;
 }
 
+.steps__list {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.steps__item {
+    margin-bottom: 80px;
+}
+
+.steps__item::after {
+    content: none;
+}
+
 @media (max-width: 768px) and (orientation: portrait) {
     #home-section {
         height: calc(100vh - 136px);
