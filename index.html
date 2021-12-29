@@ -100,11 +100,13 @@
     <!-- container-->
     <div class="outer__content">
       <div id="home-section" class="section-bg book">
-        <div class="home__container" data-aos="animation-translate-up">
-          <img class="home__logo" src="img/logo-light.svg" />
-          <h2 class="home__title main__title h2">PRIVATE TOUR RACING<br>METATRUCK</h2>
-        </div>
-        <img class="home__background" src="img/homepage_metatruck.jpg" />
+        <picture class="home__visual">
+          <source srcset="img/mobile_homepage.jpg" media="(max-width: 414px) and (orientation: portrait)">
+          <source srcset="img/tablet_homepage.jpg" media="(max-width: 768px) and (orientation: portrait)">
+          <source srcset="img/ipadpro_homepage.jpg" media="(max-width: 1366px) and (orientation: portrait)">
+          <source srcset="img/total_background.jpg" media="(min-width: 769px) and (orientation: landscape)">
+          <img src="img/total_background.jpg" />
+        </picture>
       </div>
       <div class="section collection">
         <h2 class="main__title" data-aos="animation-translate-up">DISCOVER THE COLLECTION</h2>
