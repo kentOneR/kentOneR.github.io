@@ -2320,6 +2320,8 @@ body.dark .some-icon {
   font-weight: 700;
   text-transform: uppercase;
   color: #FCFCFD; }
+.status-gold {
+  background: #F9AB2E; }
 
 .status-red {
   background: #FF592C; }
